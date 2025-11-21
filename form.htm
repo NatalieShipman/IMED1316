@@ -35,9 +35,15 @@
 
       <!-- checkbox -->
       <strong>Yes or No</strong><br />
-      <input type="radio" name="myDecisionCheckbox" id="myCheckbox-yes" value="Yes" required /><lable for="myCheckbox-yes"> Yes </lable><br />
+      <input type="radio" name="myDecisionCheckbox" id="myCheckbox-yes" value="Yes" /><lable for="myCheckbox-yes"> Yes </lable><br />
       <input type="radio" name="myDecisionCheckbox" id="myCheckbox-no" value="No" /><lable for="myCheckbox-no"> No </lable>
       <br />
+
+      <!-- textarea -->
+      <textarea name="comments" value="comments" style="width: 800px; height: 500px"></textarea>
+
+      <!-- upload filed -->
+      <input type="file" name="upload" id="upload" accept=".pdf, .docx" />
 
       <input type="submit" value="Submit Form" id="submit" />
     </form>
